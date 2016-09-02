@@ -99,6 +99,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ListView.ExpandingFooter\ListView.ExpandingFooter.csproj">
       <Name>ListView.ExpandingFooter</Name>
+      <Project>{997EF5E6-9EFE-4BD5-8179-85C83D6DA77D}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -118,6 +119,8 @@
     <BundleResource Include="Resources\Icon-Small%402x.png" />
     <BundleResource Include="Resources\Icon-Small%403x.png" />
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\hamburger%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

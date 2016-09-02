@@ -7,8 +7,8 @@ namespace ListView.ExpandingFooter
     {
         public App()
         {
-            // The root page of your application
-            MainPage = new RootPage();
+			//MainPage = new Scenario01();
+			MainPage = new Scenario02();
         }
 
         protected override void OnStart()

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage	xmlns="http://xamarin.com/schemas/2014/forms"
+				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+				x:Class="ListView.ExpandingFooter.Pages.Scenario02MasterPage"
+				Title="Master"
+				Icon="hamburger.png">
+	<ContentPage.Content>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*"></RowDefinition>
+				<RowDefinition Height="Auto"></RowDefinition>
+			</Grid.RowDefinitions>
+
+			<ListView	x:Name="MenuListView"
+						SeparatorVisibility="None"
+						RowHeight="30"
+						ItemsSource="{Binding ItemsSource}"
+						Grid.Row="0">
+				<ListView.Header>
+					<StackLayout Orientation="Horizontal" Padding="15,30,8,20">
+						<Label Text="menu" />
+					</StackLayout>
+				</ListView.Header>
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<ViewCell>
+							<StackLayout Orientation="Horizontal" Padding="15,0">
+								<Label Text="Title" VerticalOptions="Center" />
+							</StackLayout>
+						</ViewCell>
+					</DataTemplate>
+				</ListView.ItemTemplate>
+				<ListView.Footer>
+					<StackLayout x:Name="ListViewFooter"
+								 Padding="15,25,10,20" Spacing="5"
+								 BackgroundColor="Yellow">
+						<Label Text="version" />
+						<Label Text="1.1.0" />
+					</StackLayout>
+				</ListView.Footer>
+			</ListView>
+
+			<Grid	x:Name="DummyGridForDesignTest"
+					IsVisible="false"
+					Grid.Row="1" />
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
