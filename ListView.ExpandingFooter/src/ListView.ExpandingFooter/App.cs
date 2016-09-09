@@ -8,7 +8,8 @@ namespace ListView.ExpandingFooter
         public App()
         {
 			//MainPage = new Scenario01();
-			MainPage = new Scenario02();
+			//MainPage = new Scenario02();
+			MainPage = new Scenario03();
         }
 
         protected override void OnStart()

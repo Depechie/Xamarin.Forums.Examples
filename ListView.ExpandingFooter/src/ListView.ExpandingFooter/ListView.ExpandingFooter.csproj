@@ -53,6 +53,15 @@
     </Compile>
     <Compile Include="Models\MenuItem.cs" />
     <Compile Include="ViewModels\Scenario02ViewModel.cs" />
+    <Compile Include="Pages\Scenario03.xaml.cs">
+      <DependentUpon>Scenario03.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Scenario03DetailPage.xaml.cs">
+      <DependentUpon>Scenario03DetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Scenario03MasterPage.xaml.cs">
+      <DependentUpon>Scenario03MasterPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="GettingStarted.Xamarin" />
@@ -70,6 +79,15 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\Scenario02DetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Scenario03.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Scenario03DetailPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\Scenario03MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

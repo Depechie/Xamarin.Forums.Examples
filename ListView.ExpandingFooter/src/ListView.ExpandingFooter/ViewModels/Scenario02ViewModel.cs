@@ -31,7 +31,27 @@ namespace ListView.ExpandingFooter.ViewModels
 			{
 				new Models.MenuItem() { Title = "menu item 1" },
 				new Models.MenuItem() { Title = "menu item 2" },
-				new Models.MenuItem() { Title = "menu item 3" }
+				new Models.MenuItem() { Title = "menu item 3" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 2" },
+				new Models.MenuItem() { Title = "menu item 8" },
+				new Models.MenuItem() { Title = "menu item 9" },
+				new Models.MenuItem() { Title = "menu item 10" },
+				new Models.MenuItem() { Title = "menu item 11" },
+				new Models.MenuItem() { Title = "menu item 12" }
 			};
 
 			ItemsSource = menuItems;
